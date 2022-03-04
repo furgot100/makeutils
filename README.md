@@ -1,4 +1,4 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/furgot100/makeutil)](https://goreportcard.com/report/github.com/furgot100/makeutils)
+[![Go Report Card](https://goreportcard.com/badge/github.com/furgot100/makeutils)](https://goreportcard.com/report/github.com/furgot100/makeutils)
 
 # Git cloner
 This is a simple go program that let's you clone multiple repos
