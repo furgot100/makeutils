@@ -40,11 +40,15 @@ func main() {
 		fmt.Println(err)
 	}
 
-	testrepo := "https://github.com/furgot100/testrepo.git"
+	for i := range repoList {
+		repo := repoList[i]
 
-	cmd := exec.Command("git", "clone", testrepo)
+		cmd := exec.Command("git", "clone", repo)
 
-	errors := cmd.Run()
+		errors := cmd.Run()
+		fmt.Printf("command finshed with err %v", errors)
+	}
 
-	fmt.Printf("command finshed with err %v", errors)
+	// testrepo := "https://github.com/furgot100/testrepo.git"
+
 }
