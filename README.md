@@ -1,8 +1,8 @@
-Git clone multiple
-could be like the average weight at its most basic
-should ask how many repos to be downloaded
-adds those links in a slice
-then should run the exec command over each repo/ maybe use concurrency?
+[![Go Report Card](https://goreportcard.com/badge/github.com/furgot100/makeutil)](https://goreportcard.com/report/github.com/furgot100/makeutils)
+
+# Git cloner
+This is a simple go program that let's you run 
+
 
 
 ISSUES:
