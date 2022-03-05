@@ -46,9 +46,8 @@ func main() {
 		cmd := exec.Command("git", "clone", repo)
 
 		errors := cmd.Run()
-		fmt.Printf("command finshed with err %v", errors)
+		fmt.Printf("command finshed with err %v \n", errors)
 	}
 
 	// testrepo := "https://github.com/furgot100/testrepo.git"
-
 }
